@@ -1,0 +1,26 @@
+{
+  "name": "playing-card-logic",
+  "version": "0.0.1",
+  "author": "benwatsonuk",
+  "dependencies": {},
+  "description": "Reusable logic for applications that require playing cards. The module will set up cards and can 'shuffle' items into an array of objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benwatsonuk/playing-card-logic.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benwatsonuk/playing-card-logic/issues"
+  },
+  "homepage": "https://github.com/benwatsonuk/playing-card-logic#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}
