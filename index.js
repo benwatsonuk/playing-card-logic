@@ -1,5 +1,5 @@
 import * as cards from './functions/cards'
 
-const setupCards = () => cards.setupCards()
+const setupCards = (count, jokers) => cards.setupCards(count, jokers)
 
 export default setupCards
