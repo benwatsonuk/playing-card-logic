@@ -1,6 +1,6 @@
 {
   "name": "playing-card-logic",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "benwatsonuk",
   "dependencies": {},
   "description": "Reusable logic for applications that require playing cards. The module will set up cards and can 'shuffle' items into an array of objects",

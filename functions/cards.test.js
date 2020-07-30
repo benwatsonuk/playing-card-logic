@@ -7,6 +7,9 @@ test('initCardDeck creates array of 54 cards', () => {
 test('initCardDeck creates array of 52 cards if joker false flag is set', () => {
     expect(initCardDeck(false).length).toEqual(52);
 });
+test('initCardDeck creates array of 52 cards if joker true flag is set', () => {
+    expect(initCardDeck(true).length).toEqual(54);
+});
 test('initCardDeck creates array of objects and first one is Ace of Hearts', () => {
     expect(initCardDeck()[0]['id']).toEqual("H1");
 });
@@ -18,6 +21,10 @@ test('initCardDeck creates array of objects and last one is the second joker of 
 const exercises = [{id: 'H', exercise: 'Push ups'}, {id: 'C', exercise: 'Squats'}, {id: 'D', exercise: 'Burpies'}, {id: 'S', exercise: 'Crunches'}];
 test('setupCards creates array of 52 cards if no count supplied', () => {
     expect(setupCards().length).toEqual(52);
+});
+
+test('setupCards creates array of 54 cards if 52 count is supplied with jokers set to true', () => {
+    expect(setupCards(52, true).length).toEqual(54);
 });
 
 test('setupCardsWithData creates array of 54 cards if no count supplied', () => {
