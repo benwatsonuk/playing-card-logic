@@ -71,8 +71,7 @@ export function shuffleTheDeck(theCards) {
 }
 
 // Returns the 'count' of the given array
-export function splitTheDeck(theCards, count = theCards.length, jokers = false) {
-    jokers === true ? count = count + 2 : count
+export function splitTheDeck(theCards, count = theCards.length) {
     return theCards.slice(theCards.length - count);
 }
 
